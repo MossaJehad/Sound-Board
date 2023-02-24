@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;500;1000&display=swap" rel="stylesheet">
+    <title>Sound Board</title>
+    <style>
+        body{
+            background-color:rgb(205, 149, 204);
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }    
+
+        button{
+            font-family: 'Cairo', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+            
+            <audio id="abushawqi" src="audio/abushawqi.mp3"></audio>
+            <audio id="alasfor" src="audio/alasfor.mp3"></audio>
+            <audio id="dinoandfrog" src="audio/dinoandfrog.mp3"></audio>
+            <audio id="skeleton" src="audio/skeleton.wav"></audio>
+
+            <div id="buttons"></div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>
